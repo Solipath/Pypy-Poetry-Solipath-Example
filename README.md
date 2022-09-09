@@ -5,12 +5,14 @@ Please note that Python and ZLib are compiled from source on Linux and Mac. It w
 
 To install poetry dependencies and run tests from the command line:
 ```bash
+./solipath poetry env use python
 ./solipath poetry install
 ./solipath poetry run pytest
 ```
 
 or from command prompt:
 ```cmd
+solipath poetry env use python
 solipath poetry install
 solipath poetry run pytest
 ```
