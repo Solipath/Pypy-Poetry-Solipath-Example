@@ -13,7 +13,7 @@ jobs:
     strategy: 
       matrix:
         include:
-          - os: macos-latest
+          - os: macos-12
             commandSetupPoetry: ./solipath poetry env use python
             commandInstallDependencies: ./solipath poetry install
             commandRunTests: ./solipath poetry run pytest
