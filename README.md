@@ -1,7 +1,7 @@
 # Solipath Python/Poetry example project
 This is a quick showcase of using Solipath for a python project
 
-Please note that Python and ZLib are compiled from source on Linux and Mac. It will take some time to get ready.
+Please note that this uses PyPy, so some libraries will not work such as Pytorch.
 
 To install poetry dependencies and run tests from the command line:
 ```bash

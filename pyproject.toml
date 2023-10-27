@@ -4,7 +4,6 @@ version = "0.1.0"
 description = ""
 authors = ["Brian Frazho <befrazho@gmail.com>"]
 readme = "README.md"
-packages = [{include = "python_fizzbuzz_solipath"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
