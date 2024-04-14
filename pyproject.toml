@@ -6,7 +6,7 @@ authors = ["Brian Frazho <befrazho@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.8"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.1.3"
